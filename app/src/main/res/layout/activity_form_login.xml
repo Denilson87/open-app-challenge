@@ -49,6 +49,7 @@
 
     <android.support.v7.widget.AppCompatButton
         android:text="Entrar"
+        android:textSize="18dp"
         android:textColor="@color/white"
         style="@style/Button"
         app:layout_constraintStart_toStartOf="parent"
