@@ -7,4 +7,9 @@
         <item name="android:background">@drawable/container_components</item>
         <item name="android:layout_margin">20dp</item>
     </style>
+
+    <style name="Edit_Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>
