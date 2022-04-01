@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/drawable/background.xml" value="0.252" />
         <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/layout/activity_form_login.xml" value="0.27445652173913043" />
         <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
