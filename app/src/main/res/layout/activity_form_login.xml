@@ -51,7 +51,6 @@
         android:text="Entrar"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:textAllCaps="false"
         android:textColor="@color/white"
         style="@style/Button"
         app:layout_constraintStart_toStartOf="parent"
