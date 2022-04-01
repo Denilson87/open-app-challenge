@@ -26,11 +26,25 @@
         />
 
     <EditText
+        android:id="@+id/email_Edit"
         style="@style/Edit_Text"
         android:hint="Email"
+        android:drawableRight="@drawable/ic_email"
         app:layout_constraintStart_toStartOf="@id/ContainerComponents"
         app:layout_constraintEnd_toEndOf="@id/ContainerComponents"
         app:layout_constraintTop_toTopOf="@id/ContainerComponents"
+        />
+
+
+    <EditText
+        android:id="@+id/password_Edit"
+        style="@style/Edit_Text"
+        android:hint="Senha"
+        android:drawableRight="@drawable/ic_eye"
+        app:layout_constraintStart_toStartOf="@id/ContainerComponents"
+        app:layout_constraintEnd_toEndOf="@id/ContainerComponents"
+        app:layout_constraintTop_toBottomOf="@id/email_Edit"
+
         />
 
 

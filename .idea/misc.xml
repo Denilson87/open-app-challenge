@@ -4,11 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/drawable/background.xml" value="0.252" />
+        <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/drawable/button.xml" value="0.269" />
         <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/drawable/container_components.xml" value="0.201" />
         <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/drawable/edit_text.xml" value="0.25" />
         <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/drawable/ic_email.xml" value="0.269" />
         <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/drawable/ic_eye.xml" value="0.269" />
-        <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/layout/activity_form_login.xml" value="0.25" />
+        <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/layout/activity_form_login.xml" value="0.33" />
         <entry key="..\:/laravel-apps/Andorid-apps/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
