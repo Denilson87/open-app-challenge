@@ -47,5 +47,14 @@
 
         />
 
+    <android.support.v7.widget.AppCompatButton
+        android:text="Entrar"
+        android:textColor="@color/white"
+        style="@style/Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password_Edit"
+        />
+
 
 </android.support.constraint.ConstraintLayout>
