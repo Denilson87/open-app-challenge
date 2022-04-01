@@ -27,6 +27,7 @@
 
     <EditText
         style="@style/Edit_Text"
+        android:hint="Email"
         app:layout_constraintStart_toStartOf="@id/ContainerComponents"
         app:layout_constraintEnd_toEndOf="@id/ContainerComponents"
         app:layout_constraintTop_toTopOf="@id/ContainerComponents"
