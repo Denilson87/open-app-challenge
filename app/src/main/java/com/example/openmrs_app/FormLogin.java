@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 public class FormLogin extends AppCompatActivity {
 
-    private TextView text_tela_cadastro;
+    public TextView telaCadastro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,6 @@ public class FormLogin extends AppCompatActivity {
         getSupportActionBar().hide();
     }
     private void IniciarComponents(){
-        text_tela_cadastro = findViewById(R.id.text_tela_cadastro);
+        telaCadastro = findViewById(R.id.telaCadastro);
     }
 }
