@@ -1,12 +1,13 @@
 package com.example.openmrs_app;
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
 public class FormLogin extends AppCompatActivity {
 
-    public TextView telaCadastro;
+    public TextView tela_Cadastro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +16,8 @@ public class FormLogin extends AppCompatActivity {
 
         getSupportActionBar().hide();
     }
+    @SuppressLint("WrongViewCast")
     private void IniciarComponents(){
-        telaCadastro = findViewById(R.id.telaCadastro);
+        tela_Cadastro = findViewById(R.id.tela_Cadastro);
     }
 }
