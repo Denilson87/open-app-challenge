@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OpenMRSAPP">
         <activity
-            android:name=".FormRegistar"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
