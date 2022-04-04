@@ -6,7 +6,7 @@ import retrofit2.http.Path;
 public interface restService {
 
         //consultar patient no webservice openMRS
-        @GET("{result}/json/")
+        @GET("{results}/json/")
         Call<patient>searchPatient(@Path("/patient?q=Marcos&v=default&limit=7") String patient);
 }
 
