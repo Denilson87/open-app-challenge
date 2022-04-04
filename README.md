@@ -5,5 +5,6 @@ clone the project to your local, update gradle and sync the project.
 # Enviroment pre requirements
  	- Android Studio 3.2-7.2.x
 	- Retrofit 2.7.0
-  - Android JDK version 11.0.11
+	- Android JDK version 11.0.11
+ 
  
