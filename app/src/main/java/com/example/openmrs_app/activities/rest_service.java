@@ -97,9 +97,8 @@ public class rest_service extends AppCompatActivity implements View.OnClickListe
                     birthdate.setText(patient.getBithday());
                     gender.setText(patient.getGender());
                     attributes.display.setText(patient.getUf());
-                    txtLocalidade.setText(patient.getLocalidade());
+                    image.setImageUrl.getImageUrl());
                     Toast.makeText(getApplicationContext(), "Paciente consultado com sucesso", Toast.LENGTH_LONG).show();
-
                     //escondendo a progressbar after succeess response
                     progressBar.setVisibility(View.GONE);
 

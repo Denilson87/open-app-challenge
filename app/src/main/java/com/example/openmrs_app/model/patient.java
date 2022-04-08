@@ -56,8 +56,8 @@ public class patient {
         return image;
     }
 
-    public void setImage(String images) {
-        this.image = image;
+    public void setImageUrl(String imageUrl) {
+        this.image = imageUrl;
     }
 
 
@@ -67,6 +67,6 @@ public class patient {
                 "\nbirthdate:" + getBirthdate()+
                 "\ngender:" + getGender()+
                 "\nattributes:" + getAttributes()+
-                "\nimagge:"+ getImage();
+                "\nimaggeurl:"+ getImageUrl();
     }
 }
