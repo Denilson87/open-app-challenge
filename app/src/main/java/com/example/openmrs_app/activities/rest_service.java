@@ -47,7 +47,7 @@ public class rest_service extends AppCompatActivity implements View.OnClickListe
     private Boolean validarCampos() {
 
         Boolean status = true;
-        String nome = txtPatitient.getText().toString().trim();
+        String patient = txtPatitient.getText().toString().trim();
 
         if (id.isEmpty()) {
             txtPatitient.setError("Digite um codigo ou nome válido");
