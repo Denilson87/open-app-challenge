@@ -66,7 +66,7 @@ public class patient {
         return "patient:" + getDisplay() +
                 "\nbirthdate:" + getBirthdate()+
                 "\ngender:" + getGender()+
-                "\nattributes:" + getAttributes();
-
+                "\nattributes:" + getAttributes()+
+                "\nimagge:"+ getImage();
     }
 }
