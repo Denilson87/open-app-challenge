@@ -37,7 +37,7 @@ public class rest_service extends AppCompatActivity implements View.OnClickListe
         //configurando como invisível
         progressBar.setVisibility(View.GONE);
         //configura os recursos do retrofit
-        retrofitCEP = new Retrofit.Builder()
+        retrofitPatient = new Retrofit.Builder()
                 .baseUrl(URL)                                       //endereço do webservice
                 .addConverterFactory(GsonConverterFactory.create()) //conversor
                 .build();
@@ -59,7 +59,7 @@ public class rest_service extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btnSearchPaticient:
+            case R.id.btnSearchPatient:
                 if (validarCampos()) {
                     esconderTeclado();
                     SearchPatient();
@@ -77,16 +77,13 @@ public class rest_service extends AppCompatActivity implements View.OnClickListe
     }
 
     private void pesquisarPaciente() {
-        String sPatient = txtNome.getText().toString().trim();
+        String Patient = txtNome.getText().toString().trim();
         //instanciando a interface
-        RESTService restService = retrofitCEP.create(RESTService.class);
-
+        rest_service rest_service = retrofitCEP.create(rest_service.class);
         //passando os dados para consulta
-        Call<sPatient> call = restService.consultarsPatient(sPatient);
-
+        Call<Patient> call = rest_service.consultarPatient(Patient);
         //exibindo a progressbar
         progressBar.setVisibility(View.VISIBLE);
-
         //colocando a requisição na fila para execução
         call.enqueue(new Callback<result>() {
             @Override

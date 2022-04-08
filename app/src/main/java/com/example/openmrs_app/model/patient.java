@@ -52,7 +52,7 @@ public class patient {
         this.attributes = attributes;
     }
 
-    public String getImage() {
+    public String getImageUrl() {
         return image;
     }
 
