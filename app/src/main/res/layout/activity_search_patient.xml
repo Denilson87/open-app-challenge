@@ -42,8 +42,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:text="Procurar"
-        app:layout_constraintBottom_toBottomOf="@+id/txtinpl"
-        app:layout_constraintStart_toEndOf="@+id/txtinplayCEP"
+        app:layout_constraintBottom_toBottomOf="@+id/CardResponse"
+        app:layout_constraintStart_toEndOf="@+id/txtPatient"
         app:layout_constraintTop_toTopOf="" />
+
 
 </android.support.design.widget.CoordinatorLayout>
