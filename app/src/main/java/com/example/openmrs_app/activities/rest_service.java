@@ -1,7 +1,6 @@
 package com.example.openmrs_app.activities;
 
 package com.example.openmrs_app;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.text.InputType;
@@ -10,7 +9,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
 import com.example.openmrs_app.R;
 import com.example.openmrs_app.SearchPatient;
 
@@ -110,8 +108,7 @@ public class rest_service extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onFailure(Call<result> call, Throwable t) {
-                Toast.makeText(getApplicationContext(), "Ocorreu um erro ao tentar consultar o paciente. Erro: " + t.getMessage(), Toast.LENGTH_LONG).show();
-
+                Toast.makeText(getApplicationContext(), "Ocorreu um erro ao consultar o paciente. Erro: " + t.getMessage(), Toast.LENGTH_LONG).show();
                 //escondendo a progressbar
                 progressBar.setVisibility(View.GONE);
             }

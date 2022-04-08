@@ -16,7 +16,10 @@ public class patient {
     @SerializedName("attributes")
     @Expose
     private String attributes;
+    @Expose
+    private String image;
 
+    //Getters and setters
     public String getDisplay() {
         return display;
     }
@@ -47,5 +50,23 @@ public class patient {
 
     public void setAttributes(String attributes) {
         this.attributes = attributes;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String images) {
+        this.image = image;
+    }
+
+
+    @Override
+    public String toString() {
+        return "patient:" + getDisplay() +
+                "\nbirthdate:" + getBirthdate()+
+                "\ngender:" + getGender()+
+                "\nattributes:" + getAttributes();
+
     }
 }
