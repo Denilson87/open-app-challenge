@@ -45,7 +45,17 @@
         android:text="Procurar"
         app:layout_constraintBottom_toBottomOf="@+id/CardResponse"
         app:layout_constraintStart_toEndOf="@+id/txtPatient"
-        app:layout_constraintTop_toTopOf="" />
+        app:layout_constraintTop_toTopOf="@+id/viewReposnse" />
+
+    <View
+        android:id="@+id/viewReposnse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/white"
+        android:textColor="@color/black">
+    </View>
 
 
 </android.support.design.widget.CoordinatorLayout>
