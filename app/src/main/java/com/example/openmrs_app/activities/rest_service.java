@@ -31,8 +31,8 @@ public class rest_service extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        txtCEP = findViewById(R.id.txtinpedtCEP);
-        btnSearchPatient = findViewById(R.id.btnSearchPaticient);
+        txtPerson = findViewById(R.id.txtPerson);
+        btnSearchPatient = findViewById(R.id.btnSearchPatient);
         progressBar = findViewById(R.id.ProgressBar);
         //configurando como invisível
         progressBar.setVisibility(View.GONE);
